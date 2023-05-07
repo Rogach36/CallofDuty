@@ -207,14 +207,17 @@ h6 {
 	border-radius: 4px;
 }
 
-.menu__user {
+.menu__user img {
+	cursor: pointer;
 }
 .user {
 	display: flex;
 	min-width: 90px;
 	justify-content: space-between;
+	
 }
 .user__profile {
+	cursor: pointer;
 }
 
 @media(max-width: 1081px) {
@@ -303,7 +306,8 @@ h6 {
 	border-top: 3px solid #8DD83D;
 	border-radius: 5%;
 	z-index: 20;	
-	transform: rotate(-45deg);
+	transform: rotate(-45deg);#
+	cursor: pointer;
 }
 .main-block::after {
 	content: "";
@@ -318,6 +322,7 @@ h6 {
 	border-radius: 5%;
 	z-index: 20;	
 	transform: rotate(135deg);
+	cursor: pointer;
 }
 
 .main-block__cover {
