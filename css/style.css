@@ -176,6 +176,7 @@ h6 {
 	height: 7px;
 	background-image: url("/img/header/down-arrow.svg");
 	background-repeat: no-repeat;
+	cursor: pointer;
 }
 .menu__item:nth-child(3)::after {
 	display: none;
